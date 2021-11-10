@@ -30,7 +30,7 @@ For this library CMake is used for linking. If you don't know how to implement t
         cmake_minimum_required(VERSION 3.12)
 
         # Adds a CMakeLists.txt file from a subdirectory
-        add_subdirectory(rpi-pico-bmp180-master)
+        add_subdirectory(rpi-pico-htu21d-master)
 
 6.  Include this project into your project by adding a new target link library. Open your top level **CMakeLists.txt** file and add:
 
